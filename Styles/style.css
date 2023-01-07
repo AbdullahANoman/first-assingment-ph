@@ -8,6 +8,12 @@ p {
     margin-bottom: 8px;
 }
 
+footer {
+    background-color: #151414;
+    color: white;
+    padding: 130px 230px;
+}
+
 /* header  styles start  */
 
 .header-container {
@@ -23,7 +29,7 @@ p {
 .text-block {
     position: absolute;
     transform: rotate(+180deg);
-    align-items:right;
+    align-items: right;
     height: 400px;
     width: 500px;
     right: 300px;
@@ -32,7 +38,7 @@ p {
 
 .text-block-tittle {
     font-size: 65px;
-    font-weight: 700px;
+    font-weight: 700;
     margin-bottom: 24px;
 }
 
@@ -52,3 +58,138 @@ p {
 
 /* main styles start  */
 
+
+/* section  failure styles start  */
+
+.failure {
+    display: flex;
+    margin: 130px 320px 50px 210px;
+}
+
+.failure-text-tittle {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.failure-text {
+    margin: 240px 290px 0px 0px;
+
+}
+
+.failure-text span {
+    color: #66CDA3;
+}
+
+.failure-img {
+    width: 570px;
+    height: 720px;
+    margin-right: 90px;
+}
+
+/* section  failure styles end  */
+
+/* section my plans start  */
+
+.my-plan-container {
+    display: flex;
+    margin: 30px 230px;
+    justify-content: space-between;
+}
+
+.my-plan-header {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 70px 0px;
+    text-align: center;
+}
+
+.my-plan-container img {
+    margin: 10px 30px;
+}
+
+.my-plan-container h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.my-plan-container p {
+    text-align: center;
+}
+
+
+.bg-1 {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('/images/watch.png');
+    width: 1140px;
+    height: 300px;
+    background-size: cover;
+    color: white;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.bg-1-tittle{
+    padding: 60px 600px 60px 60px;
+}
+.bg-1-tittle h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+/* footer styles start  */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.future h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.future p {
+    color: white;
+    margin-bottom: 16px;
+}
+
+.future img {
+    margin-top: 20px;
+}
+
+.connect {
+    padding-left: 400px;
+}
+
+.connect h3 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.connect input {
+    width: 325px;
+    height: 64px;
+    background-color: black;
+    margin-bottom: 20px;
+    border: 2px solid white;
+}
+
+.btn-2 {
+    width: 170px;
+    height: 60px;
+    background-color: white;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border:none;
+}
