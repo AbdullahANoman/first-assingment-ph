@@ -17,7 +17,7 @@ footer {
 /* header  styles start  */
 
 .header-container {
-    background-image: url('../images/banner/banner1.png');
+    background-image: url('images/banner/banner1.png');
     background-size: cover;
     transform: rotate(-180deg);
     max-width: 100%;
@@ -120,7 +120,7 @@ footer {
 
 
 .bg-1 {
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('../images/watch.png');
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('images/watch.png');
     width: 1140px;
     height: 300px;
     background-size: cover;
