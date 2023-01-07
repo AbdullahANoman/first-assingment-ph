@@ -118,7 +118,10 @@ footer {
     text-align: center;
 }
 
+/* section my plan styles end */
 
+
+/* section gradiant styles start  */
 .bg-1 {
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('images/watch.png');
     width: 1140px;
@@ -139,10 +142,11 @@ footer {
     margin-bottom: 25px;
 }
 
+/* section gradiant styles end  */
 
 
 
-
+/* main tyles end  */
 
 /* footer styles start  */
 .footer-container {
@@ -193,3 +197,5 @@ footer {
     border-radius: 5px;
     border:none;
 }
+
+/* footer styles end  */
