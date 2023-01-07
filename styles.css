@@ -5,7 +5,7 @@
 
 p {
     color: #444343;
-    margin-bottom: 8px;
+    
 }
 
 footer {
@@ -63,7 +63,7 @@ footer {
 
 .failure {
     display: flex;
-    margin: 130px 320px 50px 210px;
+    margin: 80px 320px 100px 210px;
 }
 
 .failure-text-tittle {
@@ -73,7 +73,7 @@ footer {
 }
 
 .failure-text {
-    margin: 240px 290px 0px 0px;
+    margin: 190px 290px 0px 0px;
 
 }
 
@@ -85,9 +85,54 @@ footer {
     width: 570px;
     height: 720px;
     margin-right: 90px;
+    
 }
 
 /* section  failure styles end  */
+
+/* section food card styles start  */
+.food-card-container {
+    display: flex;
+    padding: 60px 20px;
+    justify-content: space-evenly;
+}
+.food-card-container p{
+    padding-left: 25px;
+}
+.food-card-container img,h3{
+    padding-left: 25px;
+}
+
+.food-card-container img {
+    padding-top: 60px;
+
+}
+
+.food-card-container img,
+h3,
+p {
+    padding-bottom: 30px;
+}
+
+.food-family {
+    background-color: #EDF5F6;
+    width: 360px;
+    height: 352px;
+}
+
+.shelter-family {
+    background-color: #FFEEEE;
+    width: 360px;
+    height: 352px;
+}
+
+.education-child {
+    background-color: #F0E6C9;
+    width: 360px;
+    height: 352px;
+}
+
+/* section food card styles end  */
 
 /* section my plans start  */
 
@@ -142,11 +187,11 @@ footer {
     margin-bottom: 25px;
 }
 
-/* section gradiant styles end  */
+/* section gradient styles end  */
 
 
 
-/* main tyles end  */
+/* main styles end  */
 
 /* footer styles start  */
 .footer-container {
